@@ -1,0 +1,216 @@
+2019-09-19 23:42:23 FATAL BankingCustomerDoa:137 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: relation "banking_customer" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:134)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:167)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:137)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:52)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 07:31:30 FATAL BankingCustomerDoa:137 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: INSERT has more expressions than target columns
+  Position: 155
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:134)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:176)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:54)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 07:35:53 FATAL BankingCustomerDoa:137 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: INSERT has more expressions than target columns
+  Position: 155
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:134)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:176)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:54)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 07:39:14 FATAL BankingCustomerDoa:137 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: INSERT has more expressions than target columns
+  Position: 155
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:134)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:176)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:54)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 07:45:54 FATAL BankingCustomerDoa:136 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: column "ssn" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 140
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:133)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:176)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:54)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 07:50:20 FATAL BankingCustomerDoa:136 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: value too long for type character varying(9)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+	at com.revature.repository.BankingCustomerDoa.createCustomer(BankingCustomerDoa.java:133)
+	at com.revature.controller.MenuPrompt.openAccount(MenuPrompt.java:176)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:54)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 10:34:58 FATAL BankingCustomerDoa:101 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "AND"
+  Position: 49
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:85)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 10:42:04 FATAL BankingCustomerDoa:101 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "WHERE"
+  Position: 49
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:85)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 11:19:53 FATAL BankingCustomerDoa:101 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "AND"
+  Position: 50
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:85)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 11:37:27 FATAL BankingCustomerDoa:102 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "CUSTOMER_PASSWORD"
+  Position: 68
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:86)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 11:44:09 FATAL BankingCustomerDoa:102 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "CUSTOMER_PASSWORD"
+  Position: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:86)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 11:50:47 FATAL BankingCustomerDoa:102 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "CUSTOMER_PASSWORD"
+  Position: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:86)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 11:53:12 FATAL BankingCustomerDoa:102 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "CUSTOMER_PASSWORD"
+  Position: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:86)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:245)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:58)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-20 12:59:02 FATAL BankingCustomerDoa:106 - Connection failed, or SQL error.
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "CUSTOMER_PASSWORD"
+  Position: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:224)
+	at com.revature.repository.BankingCustomerDoa.getCustomerByLoginCredentials(BankingCustomerDoa.java:91)
+	at com.revature.controller.MenuPrompt.loginAccount(MenuPrompt.java:244)
+	at com.revature.controller.MenuPrompt.menu(MenuPrompt.java:57)
+	at com.revature.driver.BankingMain.main(BankingMain.java:9)
+2019-09-21 19:45:49 FATAL MenuPrompt:223 - Failed to recognize option 5 times. Exiting our program....
+2019-09-22 10:36:21 FATAL MenuPrompt:216 - Failed to recognize option 5 times. Exiting our program....
+2019-09-22 11:14:55 FATAL TestPrompt:237 - Failed to recognize option 5 times. Exiting our program....
