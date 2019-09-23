@@ -156,7 +156,7 @@ public class Prompt {
 			try {
 			initialDeposit = Double.parseDouble(customerChoice.nextLine());			
 				}	
-				catch(NumberFormatException e ) {
+				catch(Exception e ) {
 						System.out.println("Your initial Deposit must be a numerical value....");
 					}
 			if(typeOfAccount.equals("CHECKING") & initialDeposit <= 50){
